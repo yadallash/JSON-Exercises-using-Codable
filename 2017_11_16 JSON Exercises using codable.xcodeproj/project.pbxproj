@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		812F18DF1FBE28B3007DF050 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F18DE1FBE28B3007DF050 /* AppDelegate.swift */; };
+		812F18E11FBE28B3007DF050 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F18E01FBE28B3007DF050 /* ViewController.swift */; };
+		812F18E41FBE28B3007DF050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812F18E21FBE28B3007DF050 /* Main.storyboard */; };
+		812F18E61FBE28B3007DF050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812F18E51FBE28B3007DF050 /* Assets.xcassets */; };
+		812F18E91FBE28B3007DF050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812F18E71FBE28B3007DF050 /* LaunchScreen.storyboard */; };
+		812F18F11FBE28D0007DF050 /* animalRaw.json in Resources */ = {isa = PBXBuildFile; fileRef = 812F18F01FBE28D0007DF050 /* animalRaw.json */; };
+		812F18F31FBE28E2007DF050 /* animalBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F18F21FBE28E2007DF050 /* animalBreed.swift */; };
+		812F18F51FBE312A007DF050 /* PokemonRaw.json in Resources */ = {isa = PBXBuildFile; fileRef = 812F18F41FBE312A007DF050 /* PokemonRaw.json */; };
+		812F18F71FBE3171007DF050 /* PokemonCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F18F61FBE3171007DF050 /* PokemonCardData.swift */; };
+		812F18FA1FBE3F67007DF050 /* ColorSchemeRaw.json in Resources */ = {isa = PBXBuildFile; fileRef = 812F18F91FBE3F67007DF050 /* ColorSchemeRaw.json */; };
+		812F18FD1FBE3FA0007DF050 /* ColorSchemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F18FC1FBE3FA0007DF050 /* ColorSchemes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		812F18DB1FBE28B3007DF050 /* 2017_11_16 JSON Exercises using codable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2017_11_16 JSON Exercises using codable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		812F18DE1FBE28B3007DF050 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		812F18E01FBE28B3007DF050 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		812F18E31FBE28B3007DF050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		812F18E51FBE28B3007DF050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		812F18E81FBE28B3007DF050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		812F18EA1FBE28B3007DF050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		812F18F01FBE28D0007DF050 /* animalRaw.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = animalRaw.json; sourceTree = "<group>"; };
+		812F18F21FBE28E2007DF050 /* animalBreed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animalBreed.swift; sourceTree = "<group>"; };
+		812F18F41FBE312A007DF050 /* PokemonRaw.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PokemonRaw.json; sourceTree = "<group>"; };
+		812F18F61FBE3171007DF050 /* PokemonCardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCardData.swift; sourceTree = "<group>"; };
+		812F18F91FBE3F67007DF050 /* ColorSchemeRaw.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ColorSchemeRaw.json; sourceTree = "<group>"; };
+		812F18FC1FBE3FA0007DF050 /* ColorSchemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		812F18D81FBE28B3007DF050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		812F18D21FBE28B3007DF050 = {
+			isa = PBXGroup;
+			children = (
+				812F18DD1FBE28B3007DF050 /* 2017_11_16 JSON Exercises using codable */,
+				812F18DC1FBE28B3007DF050 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		812F18DC1FBE28B3007DF050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				812F18DB1FBE28B3007DF050 /* 2017_11_16 JSON Exercises using codable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		812F18DD1FBE28B3007DF050 /* 2017_11_16 JSON Exercises using codable */ = {
+			isa = PBXGroup;
+			children = (
+				812F18DE1FBE28B3007DF050 /* AppDelegate.swift */,
+				812F18E01FBE28B3007DF050 /* ViewController.swift */,
+				812F18F81FBE31D0007DF050 /* JSON files */,
+				812F18FB1FBE3F86007DF050 /* Models */,
+				812F18E21FBE28B3007DF050 /* Main.storyboard */,
+				812F18E51FBE28B3007DF050 /* Assets.xcassets */,
+				812F18E71FBE28B3007DF050 /* LaunchScreen.storyboard */,
+				812F18EA1FBE28B3007DF050 /* Info.plist */,
+			);
+			path = "2017_11_16 JSON Exercises using codable";
+			sourceTree = "<group>";
+		};
+		812F18F81FBE31D0007DF050 /* JSON files */ = {
+			isa = PBXGroup;
+			children = (
+				812F18F41FBE312A007DF050 /* PokemonRaw.json */,
+				812F18F91FBE3F67007DF050 /* ColorSchemeRaw.json */,
+				812F18F01FBE28D0007DF050 /* animalRaw.json */,
+			);
+			path = "JSON files";
+			sourceTree = "<group>";
+		};
+		812F18FB1FBE3F86007DF050 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				812F18F61FBE3171007DF050 /* PokemonCardData.swift */,
+				812F18FC1FBE3FA0007DF050 /* ColorSchemes.swift */,
+				812F18F21FBE28E2007DF050 /* animalBreed.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		812F18DA1FBE28B3007DF050 /* 2017_11_16 JSON Exercises using codable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812F18ED1FBE28B3007DF050 /* Build configuration list for PBXNativeTarget "2017_11_16 JSON Exercises using codable" */;
+			buildPhases = (
+				812F18D71FBE28B3007DF050 /* Sources */,
+				812F18D81FBE28B3007DF050 /* Frameworks */,
+				812F18D91FBE28B3007DF050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2017_11_16 JSON Exercises using codable";
+			productName = "2017_11_16 JSON Exercises using codable";
+			productReference = 812F18DB1FBE28B3007DF050 /* 2017_11_16 JSON Exercises using codable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		812F18D31FBE28B3007DF050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Quark;
+				TargetAttributes = {
+					812F18DA1FBE28B3007DF050 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 812F18D61FBE28B3007DF050 /* Build configuration list for PBXProject "2017_11_16 JSON Exercises using codable" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 812F18D21FBE28B3007DF050;
+			productRefGroup = 812F18DC1FBE28B3007DF050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				812F18DA1FBE28B3007DF050 /* 2017_11_16 JSON Exercises using codable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		812F18D91FBE28B3007DF050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812F18F51FBE312A007DF050 /* PokemonRaw.json in Resources */,
+				812F18E91FBE28B3007DF050 /* LaunchScreen.storyboard in Resources */,
+				812F18E61FBE28B3007DF050 /* Assets.xcassets in Resources */,
+				812F18FA1FBE3F67007DF050 /* ColorSchemeRaw.json in Resources */,
+				812F18F11FBE28D0007DF050 /* animalRaw.json in Resources */,
+				812F18E41FBE28B3007DF050 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		812F18D71FBE28B3007DF050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812F18F31FBE28E2007DF050 /* animalBreed.swift in Sources */,
+				812F18F71FBE3171007DF050 /* PokemonCardData.swift in Sources */,
+				812F18FD1FBE3FA0007DF050 /* ColorSchemes.swift in Sources */,
+				812F18E11FBE28B3007DF050 /* ViewController.swift in Sources */,
+				812F18DF1FBE28B3007DF050 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		812F18E21FBE28B3007DF050 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				812F18E31FBE28B3007DF050 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		812F18E71FBE28B3007DF050 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				812F18E81FBE28B3007DF050 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		812F18EB1FBE28B3007DF050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		812F18EC1FBE28B3007DF050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		812F18EE1FBE28B3007DF050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "2017_11_16 JSON Exercises using codable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "X-Quark.-017-11-16-JSON-Exercises-using-codable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		812F18EF1FBE28B3007DF050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "2017_11_16 JSON Exercises using codable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "X-Quark.-017-11-16-JSON-Exercises-using-codable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		812F18D61FBE28B3007DF050 /* Build configuration list for PBXProject "2017_11_16 JSON Exercises using codable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812F18EB1FBE28B3007DF050 /* Debug */,
+				812F18EC1FBE28B3007DF050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812F18ED1FBE28B3007DF050 /* Build configuration list for PBXNativeTarget "2017_11_16 JSON Exercises using codable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812F18EE1FBE28B3007DF050 /* Debug */,
+				812F18EF1FBE28B3007DF050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 812F18D31FBE28B3007DF050 /* Project object */;
+}
